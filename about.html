@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – DigiCraft Design | Carla Reyes Vargas</title>
+  <meta name="description" content="Learn about Carla Reyes Vargas — Web & UX Designer based in Raleigh, NC." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="img/logo.png" alt="DigiCraft Design Logo" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://drive.google.com/your-resume-link" target="_blank" class="nav-resume">Resume</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <span class="section-label">About Me</span>
+      <h1>Hi, I'm Carla Reyes Vargas.</h1>
+      <p>Web & UX Designer based in Raleigh, NC — designing clean, human-centered digital experiences and building them from scratch when needed.</p>
+    </div>
+  </section>
+
+  <!-- BIO SECTION -->
+  <section style="background: var(--navy);">
+    <div class="container about-inner">
+      <div class="about-photo" style="position:relative;">
+        <div class="about-photo-frame">
+          <!-- Replace with your headshot -->
+          <p class="ph">📸 Your headshot goes here</p>
+        </div>
+        <div class="about-accent"></div>
+      </div>
+      <div class="about-content">
+        <span class="section-label">My Story</span>
+        <h2>Designing with purpose. Building with care.</h2>
+        <p>I'm a Web & UX Design student currently completing my capstone at [Your School Name], where I've been building a full portfolio of design and development work across web and mobile contexts.</p>
+        <p>My background sits at the intersection of design thinking and front-end development. I'm comfortable in Figma mapping out flows and high-fidelity prototypes, and equally comfortable writing the HTML and CSS to bring them to life.</p>
+        <p>I believe the best design is the kind users don't notice — it just gets out of the way and helps people accomplish what they came to do.</p>
+
+        <div style="margin-top: 2rem;">
+          <span class="section-label">Core Skills</span>
+          <div class="skills-grid">
+            <span class="skill-item">UX Research & Testing</span>
+            <span class="skill-item">Figma Prototyping</span>
+            <span class="skill-item">Information Architecture</span>
+            <span class="skill-item">User Flows & Wireframing</span>
+            <span class="skill-item">HTML / CSS / JavaScript</span>
+            <span class="skill-item">Bootstrap Framework</span>
+            <span class="skill-item">Responsive Web Design</span>
+            <span class="skill-item">Accessibility (WCAG)</span>
+            <span class="skill-item">Visual Hierarchy & Typography</span>
+            <span class="skill-item">Adobe Creative Cloud</span>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:2rem;">
+          <a href="work.html" class="btn btn-primary">See My Work →</a>
+          <a href="https://drive.google.com/your-resume-link" target="_blank" class="btn btn-outline">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section style="background: var(--navy-mid);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Do</span>
+        <h2>My Design Process</h2>
+        <p>Every project follows a thoughtful process — from understanding the problem to testing the solution.</p>
+      </div>
+      <div class="process-steps" style="grid-template-columns: repeat(4,1fr);">
+        <div class="process-step">
+          <span class="step-number">01</span>
+          <h4>Discover</h4>
+          <p style="font-size:0.8rem; margin-top:0.5rem;">Research users, define the problem, and understand the context.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-number">02</span>
+          <h4>Define</h4>
+          <p style="font-size:0.8rem; margin-top:0.5rem;">Map user flows, structure information, and plan the experience.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-number">03</span>
+          <h4>Design</h4>
+          <p style="font-size:0.8rem; margin-top:0.5rem;">Build wireframes and high-fidelity prototypes in Figma.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-number">04</span>
+          <h4>Deliver</h4>
+          <p style="font-size:0.8rem; margin-top:0.5rem;">Test, iterate, and document. Build it if the project calls for it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo"><img src="img/logo.png" alt="DigiCraft Design" /></a>
+      <p class="footer-copy">© 2026 DigiCraft Design · Carla Reyes Vargas · Raleigh, NC</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
